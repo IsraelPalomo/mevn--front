@@ -1,7 +1,7 @@
 import axios, { AxiosInstance } from 'axios';
 
 const axiosIntance: AxiosInstance = axios.create({
-  baseURL: 'http://localhost:3000/api',
+  baseURL: 'https://mevn-back-production.up.railway.app//api',
   headers: {
     'Content-Type': 'application/json',
   },
